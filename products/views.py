@@ -7,7 +7,7 @@ from products.serializers import ProducrsSerializer
 
 class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
-    serializer_class = ProducrsSerializer
+    serializer_class = ProductsSerializer
 
 
 def list_products(request):
